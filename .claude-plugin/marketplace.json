@@ -1,0 +1,17 @@
+{
+  "name": "oleksyuk-agent-skills",
+  "version": "1.0.0",
+  "description": "Maks Oleksyuk's collection of Claude Code skills, each installable on its own.",
+  "repository": "https://github.com/maks-oleksyuk/agent-skills",
+  "owner": {
+    "name": "Maks Oleksyuk",
+    "email": "maksym.oleksyuk@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ddev",
+      "source": "./ddev",
+      "description": "Teaches Claude that the project runs inside DDEV, so commands (composer, php, npm, artisan, drush, wp) run in the containers instead of failing on the host."
+    }
+  ]
+}
