@@ -1,0 +1,11 @@
+{
+  "name": "ddev",
+  "version": "1.0.0",
+  "description": "Teaches Claude that the project runs inside DDEV, so commands (composer, php, npm, artisan, drush, wp) run in the containers instead of failing on the host.",
+  "author": {
+    "name": "Maks Oleksyuk",
+    "email": "maksym.oleksyuk@gmail.com"
+  },
+  "homepage": "https://github.com/maks-oleksyuk/agent-skills",
+  "keywords": ["ddev", "docker", "php", "drupal", "laravel", "wordpress", "local-development"]
+}
