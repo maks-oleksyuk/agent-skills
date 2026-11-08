@@ -8,6 +8,7 @@ own plugin, so you install only the ones you want.
 
 | Plugin | What it does |
 | ------ | ------------ |
+| [`mantine-headless-tailwind`](./mantine-headless-tailwind) | Rules for UI components on Mantine in headless mode, styled with Tailwind via `tailwind-variants`: no Mantine CSS, slots and `data-*` states, prop types derived from the styles via `satisfies`, React Compiler-friendly structure, tests and a demo page. |
 | [`ddev`](./ddev) | Teaches Claude that the project runs inside [DDEV](https://ddev.com), so commands (composer, php, npm, artisan, drush, wp) run in the containers instead of failing on the host. |
 
 _More to come._
@@ -19,6 +20,7 @@ Add this repository as a marketplace, then install a plugin from it:
 ```
 /plugin marketplace add maks-oleksyuk/agent-skills
 /plugin install ddev@oleksyuk-agent-skills
+/plugin install mantine-headless-tailwind@oleksyuk-agent-skills
 ```
 
 Restart Claude Code (or reload plugins) after installing.

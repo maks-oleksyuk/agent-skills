@@ -12,6 +12,11 @@
       "name": "ddev",
       "source": "./ddev",
       "description": "Teaches Claude that the project runs inside DDEV, so commands (composer, php, npm, artisan, drush, wp) run in the containers instead of failing on the host."
+    },
+    {
+      "name": "mantine-headless-tailwind",
+      "source": "./mantine-headless-tailwind",
+      "description": "Rules for UI components on Mantine in headless mode styled with Tailwind via tailwind-variants: no Mantine CSS, slots and data-* states, prop types derived from the styles via satisfies, React Compiler-friendly structure, tests and a demo page."
     }
   ]
 }

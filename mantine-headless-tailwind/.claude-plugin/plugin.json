@@ -1,0 +1,20 @@
+{
+  "name": "mantine-headless-tailwind",
+  "version": "1.0.0",
+  "description": "Rules for UI components on Mantine in headless mode styled with Tailwind via tailwind-variants: no Mantine CSS, slots and data-* states, prop types derived from the styles via satisfies, React Compiler-friendly structure, tests and a demo page.",
+  "author": {
+    "name": "Maks Oleksyuk",
+    "email": "maksym.oleksyuk@gmail.com"
+  },
+  "homepage": "https://github.com/maks-oleksyuk/agent-skills",
+  "keywords": [
+    "mantine",
+    "headless",
+    "tailwind",
+    "tailwind-variants",
+    "react",
+    "components",
+    "react-compiler",
+    "typescript"
+  ]
+}
