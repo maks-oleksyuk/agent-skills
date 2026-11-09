@@ -1,6 +1,6 @@
 {
   "name": "ddev",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Teaches Claude that the project runs inside DDEV, so commands (composer, php, npm, artisan, drush, wp) run in the containers instead of failing on the host.",
   "author": {
     "name": "Maks Oleksyuk",
